@@ -34,8 +34,8 @@ function myFunction01()
   document.getElementById('btn01').textContent = "Copied!";
   setTimeout(timerFunction, 400);
   function timerFunction()
-    {
-      document.getElementById('btn01').textContent = "Department of Internal Affairs of the Kirovsky district of the city of Kazan";
-    }
+  {
+    document.getElementById('btn01').textContent = "Department of Internal Affairs of the Kirovsky district of the city of Kazan";
+  }
 }
 ```
