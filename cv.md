@@ -25,17 +25,17 @@ I study FE Pre-School 2022 Stage 0 in RSSchool
 function myFunction01()
 {
   var input = document.createElement("textarea");
-  input.value = document.getElementById('btn02').innerText;
+  input.value = document.getElementById('btn01').innerText;
   input.id = 'inputID';
   document.body.appendChild(input);
   input.select();
   document.execCommand('copy');
   document.body.removeChild(input);
-  document.getElementById('btn02').textContent = "Copied!";
+  document.getElementById('btn01').textContent = "Copied!";
   setTimeout(timerFunction, 400);
   function timerFunction()
     {
-      document.getElementById('btn02').textContent = "Department of Internal Affairs of the Kirovsky district of the city of Kazan";
+      document.getElementById('btn01').textContent = "Department of Internal Affairs of the Kirovsky district of the city of Kazan";
     }
 }
 ```
