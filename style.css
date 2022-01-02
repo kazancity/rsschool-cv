@@ -2,3 +2,16 @@ html {
   font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica, Helvetica Neue, Arial, sans-serif;
   scroll-behavior: smooth;
 }
+.header {
+  width: 100%;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+}
+.header-container{
+  background-color: rgb(163, 201, 253);
+  height: 65px;
+  width: 100%;
+  left: 0;
+  top: 0;
+}  
