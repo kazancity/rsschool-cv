@@ -43,3 +43,19 @@ html {
    text-decoration: underline;
    background-color: rgb(163, 201, 253);
  }
+ .bottom {
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 180px;
+  background-color: rgb(255, 255, 255);
+}
+.h-container-bottom {
+  height: 180px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1024px;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+}
