@@ -24,3 +24,22 @@ html {
   background-color: inherit;
   padding-bottom: 5px;
 }
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  align-items: center; /*  Выравнивание по вертикали во Flex-контейнере */
+  }
+.link-top {
+  transition: .1s;
+  color: rgb(21, 31, 100);
+}
+.link-top:hover {
+   font-size: 24px;
+   font-weight: bold;
+   text-decoration: underline;
+   background-color: rgb(163, 201, 253);
+ }
